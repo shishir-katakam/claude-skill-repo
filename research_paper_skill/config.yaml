@@ -1,0 +1,11 @@
+skill_name: research_paper_skill
+version: 1.0.0
+default_style: IEEE
+citation_styles: [IEEE, APA, ACM]
+output_formats: [pdf, tex, docx]
+context:
+  memory_file: context_manager/context_reminder.md
+  auto_refresh: true
+verification:
+  min_sources_per_claim: 2
+  require_cross_check: true

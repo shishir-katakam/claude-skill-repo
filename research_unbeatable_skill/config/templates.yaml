@@ -1,0 +1,6 @@
+templates:
+  paper_structure: writing/paper_structure.md
+  abstract_prompt: writing/abstract_generator.md
+  ieee_tex: formatting/ieee_template.tex
+  acm_tex: formatting/acm_template.tex
+  springer_tex: formatting/springer_template.tex
