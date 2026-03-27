@@ -1,0 +1,17 @@
+skill_version: 2.0.0
+default_citation_style: IEEE
+default_output_format: pdf
+supported_citation_styles:
+  - IEEE
+  - APA
+  - ACM
+supported_venues:
+  - IEEE
+  - ACM
+  - Springer
+verification:
+  min_sources_per_claim: 2
+  require_doi_or_url: true
+memory:
+  state_file: memory/project_state.json
+  auto_persist: true
